@@ -1,0 +1,60 @@
+
+
+body {
+    background-image: url('/img/background.png');
+    
+    background-color: black;
+    color: white;
+    
+    text-align: center;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.cell img {
+    width: 25px;
+    height: auto;
+}
+
+table{
+margin: auto;
+
+
+}
+.floor {
+    background-color: rgb(196, 189, 229);
+}
+
+.wall {
+    background-color: rgb(235, 232, 9);
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 5%;
+    cursor: pointer;
+    display: none;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.close-donuts{
+font-size: 25;
+}
+
+.close-obstacles{
+    display: none;
+}
+
+.won{
+    display: none;
+    font-size: 25px;
+
+}
